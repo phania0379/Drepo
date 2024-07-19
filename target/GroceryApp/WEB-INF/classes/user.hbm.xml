@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	<class name="org.grocery.entity.user">
+		<id name="id">
+			<generator class="identity" />
+		</id>
+		<property name="fname" column="FirstName" />
+		<property name="sname" column="SecondName" />
+		<property name="email" column="Email" />
+		<property name="password" column="Password" />
+	</class>
+</hibernate-mapping>
